@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\testproto3]
+@="URL:testproto3"
+"URL Protocol"=""
+
+[HKEY_CURRENT_USER\Software\Classes\testproto3\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\testproto3\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\testproto3\shell\open\command]
+@="cmd /k \"python \"c:\\Users\\hzhang\\Desktop\\DJP projects\\tests\\register url protocol\\test.py\" %1\""
